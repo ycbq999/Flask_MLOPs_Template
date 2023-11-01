@@ -6,10 +6,3 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 # delete all iamges
 docker rmi $(docker images -a -q)
-
-
-# # list docker images
-# docker images 
-
-# # list docker containers
-# docker ps -a 
